@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #f4f4f4;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;
+}
+.categore{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.categore .info .logo  {
+    margin: 20px 0 ;
+}
+.categore .info .text{
+    display: grid;
+    justify-content: center;
+}
+.categore .info .text footer{
+    color:hsl(0, 0%, 59%);  
+    font-weight: 300; /* Yazıyı ince yapar */
+    font-size: 3em;
+    
+}
+.categore .info .text span{
+    color: rgb(19, 2, 2);
+    font-weight: 700;
+}
+.categore .info .text p{
+    color:hsl(0, 0%, 59%);  
+    padding:15px 0 20px;
+    font-weight:300; /* Yazıyı ince yapar */
+    font-size: 20px;
+    
+}
+
+#inputForm {
+    width: auto;
+    height: auto;
+    
+    display: inline-flex;
+    gap: 15px;
+    padding: 20px 0 50px;
+}
+#inputForm input{
+    padding: 15px;
+    border-radius: 40px;
+    width: 400px;
+    border: hsl(0, 0%, 59%);
+}
+button{
+    background-color:hsl(223, 87%, 63%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px 60px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 1px 2px 15px 1px hsl(0, 0%, 59%);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Arka plan rengi için geçiş efekti */
+}
+button:hover {
+    background-color:#003E9D ; /* Maus imleci üzerine gelindiğinde arka plan rengini değiştir */
+}
+button:active {
+    background-color: #003E9D  ; /* Butona tıklandığında arka plan rengini değiştir */
+}
+.content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.icons {
+    font-size: 11px;
+    text-align: center;
+    border: red;
+    margin-top: 30px;
+}
+.icons i {
+    color: hsl(223, 87%, 63%) ;
+    display: inline-block; /* İkonları yan yana koymak için */
+    margin-right: 10px;   /* İkonlar arasında biraz boşluk bırakmak için */
+    border-radius: 50%;   /* Yuvarlak köşeler için */
+    padding: 10px;        /* İkonun etrafında biraz boşluk bırakmak için */
+    border: 1px solid hsl(0, 0%, 60%); /* Sadece border rengi */
+    background-color: transparent; /* İkon arka plan rengi */
+    margin-bottom: 20px;
+    transition: background-color 0.3s; /* Arka plan rengi için geçiş efekti */
+    cursor: pointer;
+}
+.icons i:hover {
+    background-color: hsl(223, 87%, 63%) ; /* Maus imleci üzerine gelindiğinde arka plan rengini değiştir */
+    color: white;
+}
+.icons i:active {
+    background-color: #003E9D; /* Butona tıklandığında arka plan rengini değiştir */
+}
+.icons p{
+    font-size: 13px;
+    color:  hsl(223, 100%, 88%);
+    letter-spacing: 1px; /* Harf arası boşluk için */
+}
+@media (max-width :375px) {
+    .categore{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .categore .info .logo{
+        margin-bottom:40px;
+    }
+    .categore .text {
+        font-weight: 100;
+        margin-bottom: 10px;
+        font-size: 11px;
+        gap: 10px;
+    }
+    .content img{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    #inputForm{
+        display: grid;
+        gap: 45px;
+        margin-right: 7%;
+        justify-content: center;
+    }
+
+}
+@media (max-width :700px) {
+    .categore{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .categore .info .logo{
+        margin-bottom:40px;
+    }
+    .categore .text {
+        font-weight: 100;
+        margin-bottom: 10px;
+        font-size: 11px;
+        gap: 10px;
+    }
+    .content img{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    #inputForm{
+        display: grid;
+        gap: 45px;
+        margin-right: 7%;
+        justify-content: center;
+    }
+
+}
+@media (max-width :1200px) {
+    .categore{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .categore .info .logo{
+        margin-bottom:40px;
+    }
+    .categore .text {
+        font-weight: 100;
+        margin-bottom: 10px;
+        font-size: 11px;
+        gap: 10px;
+    }
+    .content img{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    #inputForm{
+        display: grid;
+        gap: 45px;
+        margin-right: 7%;
+        justify-content: center;
+    }
+
+}
