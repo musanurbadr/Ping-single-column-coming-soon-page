@@ -92,7 +92,10 @@ button:active {
     align-items: center;
     width: auto;
 }
-
+.content img{
+    width: 60%;
+    margin-bottom: 80px;
+}
 .icons {
     font-size: 11px;
     text-align: center;
@@ -174,7 +177,7 @@ button:active {
         gap: 10px;
     }
     .content img{
-        width: 100%;
+        width: 90%;
         margin-bottom: 80px;
     }
 
@@ -205,6 +208,10 @@ button:active {
     .content img{
         width: 90%;
         margin-bottom: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 32px;
     }
 
     #inputForm{
